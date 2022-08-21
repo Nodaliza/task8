@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+.hello{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 20%;
+}
+
+.blue{
+ background-color: blue;
+  width: 100px;
+  height: 100px;
+  transform: translate(20px,20px);
+  
+}
+.blue:hover{
+  transform: translate(20px,20px);
+}
+.red{
+ background-color: red;
+  width: 100px;
+  height: 100px;
+  transform: scale(0.5,0.5);
+  transition: all.3 linear;
+
+}
+.red:hover{
+  transform: scale(.5,.5);
+}
+
+.green{
+ background-color:green;
+  width: 100px;
+  height: 100px;
+  transition: all.3 linear;
+  transform: rotate(45deg);
+}
+.green:hover{
+  transform: rotate(45deg);
+}
+
+.black{
+ background-color: black;
+  width: 100px;
+  height: 100px;
+  transition: all,3s linear;
+  transform: skew(45deg);
+}
+.black:hover{
+  transform: skew(45deg);
+}
+.white{
+ background-color:white;
+ width: 100px;
+ height: 100px;
+transition: all .3s linear;
+display: flex;
+align-items: center;
+align-content:center ;
+justify-content: center;
+transform: translate(50%,50%);
+box-shadow: 10px 10px 10px rgba(0,0,0, .2);
+}
+
+.aqua{
+ background-color: aqua;
+  width: 100px;
+  height: 100px;
+  transition: all.3s linear;
+  transform:scale(.5,.5)
+}
+.aqua:hover{
+  transform: rotate(45deg) scale(.5,.5);
+}
